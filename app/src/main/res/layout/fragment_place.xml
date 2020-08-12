@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:text="BERIKUT ADALAH DESTINASI-DESTINASI YANG WAJIB UNTUK ANDA KUNJUNGI :"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. FARMHOUSE LEMBANG"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/place_img1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Farmhouse Lembang bisa dikatakan tempat liburan terbaru di Bandung yang dikelola dengan baik. Keberadaannya semakin melengkapi tempat wisata di Lembang yang bisa anda kunjungi.
+            Berada tidak jauh dari pusat Lembang, popularitasnya melesat naik cukup cepat. Dari awal dibuka untuk umum langsung penuh dengan pengunjung.
+            Lokasi yang strategis di ruas jalan utama Bandung – Lembang, ditambah banyaknya spot berfoto yang bagus, membuat Farmhouse Bandung langsung jadi tempat wisata di Lembang yang difavoritkan pengunjung."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. DE'RANCH"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="284dp"
+            android:src="@drawable/place_img2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="De Ranch Lembang merupakan salah satu tempat wisata di Lembang yang populer. Tempatnya strategis, ngga jauh dari pusat kota Lembang sehingga mudah dijangkau.
+Konsep tempat wisata keluarga di Bandung ini mengusung konsep Western/Cowboy. Kita bisa bermain atau menunggang kuda, berfoto dengan kostum koboy yang tersedia, mengelilingi area dengan kuda, dan lain sebagainya."/>
+    </LinearLayout>
+
+</ScrollView>
